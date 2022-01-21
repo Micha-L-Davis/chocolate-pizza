@@ -1,0 +1,68 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+#left-top{
+    display: flex;
+
+}
+
+h1 {
+    font-family: "Yellowtail", cursive;
+    font-weight: bold;
+    margin: 0px;
+    font-size: 26pt;
+    margin-top: 12px;
+}
+
+#logo img {
+    margin: 0px;
+    margin-right: 8px;
+    margin-top: 12px;
+}
+
+header p {
+    margin: 0px;
+    font-size: 9pt;
+    font-family: 'Arial Narrow';
+}
+
+#small-images-1 {
+    margin-top: 7px;
+}
+
+#last-social {
+    margin-right: 8px;
+}
+
+hr {
+    background-image: url("img/hr-img.png");
+    height: 10px;
+    border: none;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-family: 'Impact';
+    font-size: 25pt;
+}
+
+.subtitle {
+    font-family: 'Arial Narrow', arial;
+    color: gray;
+    font-size: 8.5pt;
+}
+
+#article-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#print-button {
+    display: flex;
+    align-items: flex-end;
+}

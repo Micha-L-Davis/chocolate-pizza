@@ -1,12 +1,13 @@
-header {
+header, footer {
     display: flex;
     justify-content: space-between;
     margin: auto;
     align-items: center;
     margin-bottom: 25px;
+    width: 960px;
 }
 
-#left-top{
+#left-top, #left-footer{
     display: flex;
 
 }
@@ -25,7 +26,7 @@ h1 {
     margin-top: 12px;
 }
 
-header p {
+header p{
     margin: 0px;
     font-size: 9pt;
     font-family: 'Arial Narrow';
@@ -44,6 +45,7 @@ hr {
     height: 10px;
     border: none;
     margin-bottom: 50px;
+    width: 960px;
 }
 
 h2 {
@@ -60,9 +62,117 @@ h2 {
 #article-header {
     display: flex;
     justify-content: space-between;
+    width: 960px;
+    margin:auto;
 }
 
 #print-button {
     display: flex;
     align-items: flex-end;
+}
+
+#article-image{
+width: 960px;
+margin-top: 25px;
+margin-bottom: 25px;
+}
+
+#article-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#article-body p{
+    width: 960px;
+    margin: auto;
+    text-indent: 3ch;
+    margin-bottom: 25px;
+}
+
+#recipe-text{
+    position: relative;
+}
+
+#recipe-left{
+    position: absolute;
+    top: 44px;
+    left: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(85, 85, 85);
+    font-size: 14pt;
+}
+
+#recipe-right{
+    position: absolute;
+    top: 44px;
+    right: 115px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(85, 85, 85);
+    font-size: 14pt;
+}
+
+li{
+    margin-bottom: 14px;
+}
+
+#index-card{
+    width: 960px;
+    margin-bottom: 25px;
+
+}
+
+input{
+    appearance: none;
+    border: 1px solid rgb(85, 85, 85);
+    height: 10px;
+    width: 10px;
+    border-radius: 2px;
+    
+}
+
+h3{
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+footer p{
+    margin-top: 10px;
+}
+
+#left-footer img{
+    margin-right: 15px;
+}
+
+#right-footer{
+    background-color: sienna;
+    padding: 10px 20px;
+    font-family: 'Arial Narrow', sans-serif;
+    color: white;
+}
+
+#very-bottom hr{
+    background-image: none;
+    margin-bottom: 50px;
+    border: 1px solid gray;
+    height: 0px;
+    margin-top: 50px;
+    
+}
+
+#very-bottom{
+    display: flex;
+    width: 960px;
+    justify-content: center;
+    align-items:center;
+    margin: auto;
+}
+
+#credits{
+    width: 960;
+    margin: auto;
+    text-align: center;
+    font-size: 10pt;
+    color: rgb(85, 85, 85);
+    margin-bottom: 50px;
 }
